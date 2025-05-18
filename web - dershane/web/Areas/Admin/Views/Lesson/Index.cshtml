@@ -1,0 +1,63 @@
+﻿@using entity.Concrate
+@model List<Lesson>
+@{
+	ViewData["Title"] = "Ders";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="event-area  pt--120 pb--80">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="section-title">
+					<span class="text-uppercase">DERS İŞLEMLERİ</span>
+					<h2>Sisteme Kayıtlı Dersler </h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="col-md-6">
+				<div class="media align-items-center mb-5">
+					<div class="media-body primary-bg">
+						<div class="mt-5 mb-5 text-center d-flex justify-content-center">
+							<p>
+								<a> </a><br />
+								<a class="btn btn-success btn-round btn-sm" href="/Admin/Lesson/LessonAdd">DERS EKLE</a>
+								<a> </a><br />
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			@foreach (var item in Model)
+			{
+				<div class="col-md-6">
+					<div class="media align-items-center mb-5">
+						<div class="media-head primary-bg">
+							<p>
+								@switch (item.Status)
+								{
+									case false:
+										<h7 class="mb-5"><span class="text-warning">Statü: </span>Pasif</h7>
+										<br />
+										break;
+									case true:
+										<h7 class="mb-5"><span class="text-warning">Statü: </span>Aktif</h7>
+										<br />
+										break;
+									default:
+										<br />
+								}
+							</p>
+						</div>
+						<div class="media-body">
+							<h4 class="mb-1 mt-5"><span class="text-warning">Ders İsmi: </span> @item.Name</h4>
+							<a href="/Admin/Lesson/LessonGet/@item.Lesson_Id"><i class="fa fa-pencil">  DÜZENLE</i></a><br />
+							<a href="/Admin/Lesson/LessonDelete/@item.Lesson_Id"><i class="fa fa-trash text-danger">  SİL</i></a>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>

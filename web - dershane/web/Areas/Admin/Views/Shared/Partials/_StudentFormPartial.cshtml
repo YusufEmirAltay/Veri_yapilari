@@ -1,0 +1,52 @@
+﻿@using entity.Concrate
+@model Student
+<div class="contact-form mt-5">
+	<form method="post">
+		<div class="row">
+			<div class="col-md-6">
+				<h5 class="mb-2">İsim</h5>
+				@Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", oninput = "isim(this)" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> Soyisim</h5>
+				@Html.TextBoxFor(x => x.LastName, new { @class = "form-control", oninput = "isim(this)" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> T.C. Kimlik Numarası</h5>
+				@Html.TextBoxFor(x => x.TC, new { @class = "form-control", oninput = "tc(this)" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> Doğum Tarihi</h5>
+				@Html.TextBoxFor(model => model.BirthDay, "{0:yyyy-MM-dd}", new { @class = "form-control", @type = "date" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> Telefon Numarası</h5>
+				@Html.TextBoxFor(x => x.Phone, new { @class = "form-control", oninput = "telefon(this)" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> E-Posta Adresi</h5>
+				@Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> Sınıf</h5>
+				@Html.DropDownListFor(x => x.Class_Id, ViewBag.Class as SelectList, "Lütfen bir sınıf seçiniz...", new { @class = "form-control" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> Veli</h5>
+				@Html.DropDownListFor(x => x.Parent_Id, ViewBag.Parent as SelectList, "Lütfen bir veli seçiniz...", new { @class = "form-control" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> Statü</h5>
+				@Html.DropDownList("Status", new SelectList(new List<Object>
+				{
+				new { Value = "true", Text = "Aktif" },
+				new { Value = "false", Text = "Pasif" }
+				}, "Value", "Text"), "Lütfen statü seçiniz...", new { @class = "form-control" })
+			</div>
+
+			<div class="col-md-12 text-center">
+				<button type="submit">KAYDET</button>
+			</div>
+		</div>
+	</form>
+</div>

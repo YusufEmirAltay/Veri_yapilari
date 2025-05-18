@@ -1,0 +1,34 @@
+﻿@model entity.Concrate.Contact
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Bizimle <span>iletişime geçin</span></h4>
+					<p>Bizimle iletişime geçmek için lütfen aşağıdaki bilgileri kullanın. Size yardımcı olmaktan mutluluk duyarız! </p>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form">
+			<form method="post">
+				<div class="row">
+					<div class="col-md-4">
+						<input type="text" asp-for="Name" placeholder="İsminiz">
+					</div>
+					<div class="col-md-4">
+						<input type="email" asp-for="Email" placeholder="E-Posta Adresiniz">
+					</div>
+					<div class="col-md-4">
+						<input type="text" asp-for="Subject" placeholder="İletinizin Konusu">
+					</div>
+					<div class="col-12">
+						<textarea asp-for="Message" id="msg" placeholder="İletinizi buraya giriniz."></textarea>
+					</div>
+					<div class="col-12 text-center">
+						<button type="submit">GÖNDER</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

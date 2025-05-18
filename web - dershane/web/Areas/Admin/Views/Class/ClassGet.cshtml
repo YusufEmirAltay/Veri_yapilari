@@ -1,0 +1,21 @@
+﻿@{
+	ViewData["Title"] = "Sınıf Düzenleme";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("ClassUpdate", "Class", FormMethod.Post))
+{
+	<div class="contact-form-area pb--120">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<div class="cnt-title">
+						<h4>Sınıfı <span>düzenleyin</span></h4>
+						<p>Sınıfları düzenleyin ve eğitimin gelişmesine yardımcı olun</p>
+					</div>
+				</div>
+			</div>
+			@await Html.PartialAsync("~/Areas/Admin/Views/Shared/Partials/_ClassFormPartial.cshtml")
+		</div>
+	</div>
+}
+

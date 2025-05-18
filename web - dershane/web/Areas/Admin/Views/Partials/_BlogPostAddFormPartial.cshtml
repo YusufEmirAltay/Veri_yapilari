@@ -1,0 +1,47 @@
+﻿@using entity.Concrate
+@model Blog
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Gönderi <span>oluşturun</span></h4>
+					<p>Gönderi oluşturarak blog'a katkıda bulunun ve eğitimin gelişmesine yardımcı olun</p>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form">
+			<form method="post">
+				<div class="row">
+					<div class="col-md-4">
+						<h2 class="mb-2">Başlık</h2>
+						@Html.TextBoxFor(x => x.Title, new { placeholder = "Lütfen metin giriniz...", @class = "form-control" })
+					</div>
+					<div class="col-md-4">
+						<h2 class="mb-2">Özet</h2>
+						@Html.TextBoxFor(x => x.Summary, new { placeholder = "Lütfen metin giriniz...", @class = "form-control" })
+					</div>
+					<div class="col-md-4">
+						<h2 class="mb-2">Yazı</h2>
+						@Html.TextBoxFor(x => x.Article, new { placeholder = "Lütfen metin giriniz...", @class = "form-control" })
+					</div>
+					<div class="col-md-4">
+						<h2 class="mb-2">Fotoğraf URL</h2>
+						@Html.TextBoxFor(x => x.PhotoURL, new { placeholder = "Lütfen metin giriniz...", @class = "form-control" })
+					</div>
+					<div class="col-md-4">
+						<h2 class="mb-2">Gönderi Statüsü</h2>
+						@Html.DropDownList("Status", new SelectList(new List<Object>
+						{
+						new { Value = "true", Text = "Aktif" },
+						new { Value = "false", Text = "Pasif" }
+						}, "Value", "Text"), "Lütfen gönderi statüsünü seçiniz...", new { @class = "form-control" })
+					</div>
+					<div class="col-md-4 text-center">
+						<button type="submit">GÖNDERİ OLUŞTUR</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

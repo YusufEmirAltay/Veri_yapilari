@@ -1,0 +1,48 @@
+﻿@using entity.Concrate
+@model List<Parent>
+@{
+	ViewData["Title"] = "Veliler";
+	Layout = "~/Areas/Teacher/Views/Shared/_Layout.cshtml";
+}
+<div class="event-area  pt--120 pb--80">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="section-title">
+					<span class="text-uppercase">VELİLER</span>
+					<h2>Sisteme Kayıtlı Veliler </h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			@foreach (var item in Model)
+			{
+				<div class="col-md-6">
+					<div class="media align-items-center mb-5">
+						<div class="media-head primary-bg">
+							<p>
+								<h7 class="mb-5">
+									<span class="text-warning">Öğrencisi</span>
+									@foreach (var ogrenci in ViewBag.Ogrenci)
+									{
+										@if (ogrenci.Parent_Id == item.Parent_Id)
+										{
+											@ogrenci.FirstName @ogrenci.LastName
+										}
+									}
+
+								</h7>
+							</p>
+						</div>
+						<div class="media-body">
+							<h4 class="mb-1 mt-5"><span class="text-warning">İsim: </span> @item.FirstName</h4>
+							<h4 class="mb-1 mt-5"><span class="text-warning">Soyisim: </span> @item.LastName</h4>
+							<a href="tel:@item.Phone"><i class="fa fa-phone"></i></a><br />
+							<a href="mailto:@item.Email"><i class="fa fa-envelope"></i></a>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>

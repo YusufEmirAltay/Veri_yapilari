@@ -1,0 +1,24 @@
+﻿@using entity.Concrate
+@model Blog
+@{
+	ViewData["Title"] = "Gönderi Düzenle";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("PostUpdate", "Blog", FormMethod.Post))
+{
+	<div class="contact-form-area pb--120">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<div class="cnt-title">
+						<h4>Gönderi <span>düzenleyin</span></h4>
+						<p>Gönderi düzenleyin blog'a katkıda bulunun ve eğitimin gelişmesine yardımcı olun</p>
+					</div>
+				</div>
+			</div>
+			@await Html.PartialAsync("~/Areas/Admin/Views/Shared/Partials/_BlogFormPartial.cshtml")
+		</div>
+	</div>
+}
+
+

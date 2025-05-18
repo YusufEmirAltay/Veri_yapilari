@@ -1,0 +1,28 @@
+﻿<script src="~/template/assets/js/vendor/jquery-2.2.4.min.js"></script>
+<script src="~/template/assets/js/bootstrap.min.js"></script>
+<script src="~/template/assets/js/owl.carousel.min.js"></script>
+<script src="~/template/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="~/template/assets/js/jquery.slicknav.min.js"></script>
+<script src="~/template/assets/js/plugins.js"></script>
+<script src="~/template/assets/js/scripts.js"></script>
+<script>
+	function tc(input) {
+		input.value = input.value.replace(/\D/g, '');
+		if (input.value.length > 11) {
+			input.value = input.value.slice(0, 11);
+		}
+	}
+	function telefon(input) {
+		input.setAttribute("placeholder", "5XXXXXXXXX");
+		input.value = input.value.replace(/\D/g, '');
+		if (input.value.length > 10) {
+			input.value = input.value.slice(0, 10);
+		}
+	}
+	function isim(input) {
+		input.value = input.value.replace(/[^a-zA-Z]/g, '').toUpperCase();
+	}
+	function sayi(input) {
+		input.value = input.value.replace(/\D/g, '');
+	}
+</script>

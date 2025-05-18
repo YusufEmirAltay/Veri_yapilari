@@ -1,0 +1,37 @@
+﻿@using entity.Concrate
+@model List<Blog>
+<div class="feature-blog  pt--120 pb--70">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="section-title">
+					<span class="text-uppercase">BLOG İŞLEMLERİ</span>
+					<h2>Blog & haberler</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="blog-carousel owl-carousel card-deck">
+				@foreach (var b in Model)
+				{
+					<div class="card mb-5">
+						<img class="card-img-top" src="@b.PhotoURL" alt="image">
+						<div class="card-body p-25">
+							<h4 class="card-title mb-4"><a href="/Admin/Blog/PostGet/@b.Blog_Post_Id">@b.Title</a></h4>
+							<p class="card-text">@b.Summary</p>
+							<a class="btn btn-danger btn-round btn-sm" href="/Admin/Blog/PostDelete/@b.Blog_Post_Id">SİL</a>
+							<a class="btn btn-primary btn-round btn-sm" href="/Admin/Blog/PostGet/@b.Blog_Post_Id">DÜZENLE</a>
+						</div>
+					</div>
+				}
+				<div class="card mb-5">
+					<img class="card-img-top" src="~/template/assets/images/blog/add.png" alt="image">
+					<div class="card-body p-25">
+						<h4 class="card-title mb-4"><a href="/Admin/Blog/PostAdd">Gönderi Oluştur</a></h4>
+						<a class="btn btn-success btn-round btn-sm" href="/Admin/Blog/PostAdd">GÖNDERİ OLUŞTUR</a>
+					</div>
+				</div>
+			</div><!-- blog-carousel -->
+		</div><!-- blog-carousel -->
+	</div>
+</div>

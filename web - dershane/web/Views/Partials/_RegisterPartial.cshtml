@@ -1,0 +1,51 @@
+﻿@model AppUserRegisterDto
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Merhaba !</h4>
+					<p>Kayıt formunu doldurduktan sonra, öğrencilerimiz dikkatle incelenir ve en uygun eğitim programı belirlenir. Kayıt süreci tamamlandığında, öğrencilerimiz için özelleştirilmiş bir öğrenme yolculuğu başlar. </p>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form">
+			<form method="post">
+				<div class="row">
+
+					<div class="col-md-6">
+						<h5 class="mb-2">İsminiz</h5>
+						<input type="text" asp-for="Name" oninput="this.value = this.value.replace(/[^a-zA-ZğüşıöçĞÜŞİÖÇ]/g, '')">
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">Soyisminiz</h5>
+						<input type="text" asp-for="Surname" oninput="this.value = this.value.replace(/[^a-zA-ZğüşıöçĞÜŞİÖÇ]/g, '').toUpperCase()">
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">E-Posta Adresiniz</h5>
+						<input type="email" asp-for="Email">
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">T.C. Kimlik Numaranız</h5>
+						<input type="text" asp-for="UserName" maxlength="11" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">Parolanız</h5>
+						<input type="password" asp-for="Password">
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">Parolanızı tekrar giriniz</h5>
+						<input type="password" asp-for="ConfirmPassword">
+					</div>
+					<div class="col-md-12 text-center">
+						<button type="submit">HESAP OLUŞTUR</button>
+					</div>
+					<div>
+						<p class="text-center">Hesabınız var mı? <a href="/Login/Index">Giriş Yapınız.</a></p>
+					</div>
+
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

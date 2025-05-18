@@ -1,0 +1,38 @@
+﻿@using dto.dtos.AppUserDtos
+@model AppUserEditDto
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Profil <span>Bilgileriniz</span></h4>
+					<p>Profil bilgilerinizi görüntülemek yada değiştirmek için aşağıdaki formu kullanınız. </p>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form">
+			<form method="post">
+				<div class="row">
+					<div class="col-md-4">
+						@Html.TextBoxFor(x => x.Name, new { placeholder = "İsminiz", @class = "form-control" })
+					</div>
+					<div class="col-md-4">
+						@Html.TextBoxFor(x => x.Surname, new { placeholder = "Soyisminiz", @class = "form-control" })
+					</div>
+					<div class="col-md-4">
+						@Html.TextBoxFor(x => x.UserName, new { placeholder = "E-Posta Adresiniz", @class = "form-control" })
+					</div>
+					<div class="col-md-4 mt-5">
+						@Html.PasswordFor(x => x.Password, new { placeholder = "Parolanız", @class = "form-control" })
+					</div>
+					<div class="col-md-4 mt-5">
+						@Html.PasswordFor(x => x.ConfirmPassword, new { placeholder = "Parolanızı tekrar giriniz.", @class = "form-control" })
+					</div>
+					<div class="col-md-4 text-center">
+						<button type="submit">DEĞİŞİKLİKLERİ KAYDET</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

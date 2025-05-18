@@ -1,0 +1,559 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = web
+build_property.RootNamespace = web
+build_property.ProjectDir = C:\Users\win11\Documents\Projeler\web - dershane\web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\win11\Documents\Projeler\web - dershane\web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Adress/AdressAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRyZXNzXEFkcmVzc0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Adress/AdressGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRyZXNzXEFkcmVzc0dldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Adress/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRyZXNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Blog/PostAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xQb3N0QWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Blog/PostGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xQb3N0R2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Bulletin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnVsbGV0aW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Class/ClassAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2xhc3NcQ2xhc3NBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Class/ClassGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2xhc3NcQ2xhc3NHZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Class/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2xhc3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Home/System.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxTeXN0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Home/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Home/Workplace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxXb3JrcGxhY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Lesson/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Lesson/LessonAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uXExlc3NvbkFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Lesson/LessonGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uXExlc3NvbkdldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Parent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFyZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Parent/ParentAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFyZW50XFBhcmVudEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Parent/ParentGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFyZW50XFBhcmVudEdldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Quick/StudentAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUXVpY2tcU3R1ZGVudEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Schedule/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NoZWR1bGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Schedule/ScheduleAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NoZWR1bGVcU2NoZWR1bGVBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Schedule/ScheduleCurrent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NoZWR1bGVcU2NoZWR1bGVDdXJyZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Schedule/ScheduleGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NoZWR1bGVcU2NoZWR1bGVHZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/LayoutPartials/_CrumbsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9DcnVtYnNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/LayoutPartials/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/LayoutPartials/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/LayoutPartials/_HeadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9IZWFkUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/LayoutPartials/_PreloaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9QcmVsb2FkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/LayoutPartials/_ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9TY3JpcHRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/Partials/_AdressFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxzXF9BZHJlc3NGb3JtUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/Partials/_BlogFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxzXF9CbG9nRm9ybVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/Partials/_ClassFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxzXF9DbGFzc0Zvcm1QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/Partials/_LessonFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxzXF9MZXNzb25Gb3JtUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/Partials/_ParentFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxzXF9QYXJlbnRGb3JtUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/Partials/_ScheduleFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxzXF9TY2hlZHVsZUZvcm1QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/Partials/_StudentFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxzXF9TdHVkZW50Rm9ybVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/Partials/_TeacherFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxzXF9UZWFjaGVyRm9ybVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Student/StudentAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3R1ZGVudFxTdHVkZW50QWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Student/StudentGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3R1ZGVudFxTdHVkZW50R2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Teacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Teacher/TeacherAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxUZWFjaGVyQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Teacher/TeacherGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxUZWFjaGVyR2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/User/Role.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/User/RoleAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxSb2xlQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFByb2ZpbGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Schedule/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFNjaGVkdWxlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Shared/LayoutPartials/_CrumbsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFNoYXJlZFxMYXlvdXRQYXJ0aWFsc1xfQ3J1bWJzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Shared/LayoutPartials/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFNoYXJlZFxMYXlvdXRQYXJ0aWFsc1xfRm9vdGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Shared/LayoutPartials/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFNoYXJlZFxMYXlvdXRQYXJ0aWFsc1xfSGVhZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Shared/LayoutPartials/_HeadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFNoYXJlZFxMYXlvdXRQYXJ0aWFsc1xfSGVhZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Shared/LayoutPartials/_PreloaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFNoYXJlZFxMYXlvdXRQYXJ0aWFsc1xfUHJlbG9hZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Shared/LayoutPartials/_ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFNoYXJlZFxMYXlvdXRQYXJ0aWFsc1xfU2NyaXB0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFN0dWRlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Teacher/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFRlYWNoZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Teacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFRlYWNoZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFVzZXJcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xQcm9maWxlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Schedule/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTY2hlZHVsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Shared/LayoutPartials/_CrumbsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX0NydW1ic1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Shared/LayoutPartials/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX0Zvb3RlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Shared/LayoutPartials/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX0hlYWRlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Shared/LayoutPartials/_HeadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX0hlYWRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Shared/LayoutPartials/_PreloaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX1ByZWxvYWRlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Shared/LayoutPartials/_ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX1NjcmlwdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Teacher/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xUZWFjaGVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Teacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xUZWFjaGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xVc2VyXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Parent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xQYXJlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xQcm9maWxlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Schedule/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xTY2hlZHVsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Shared/LayoutPartials/_CrumbsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX0NydW1ic1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Shared/LayoutPartials/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX0Zvb3RlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Shared/LayoutPartials/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX0hlYWRlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Shared/LayoutPartials/_HeadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX0hlYWRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Shared/LayoutPartials/_PreloaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX1ByZWxvYWRlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Shared/LayoutPartials/_ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xTaGFyZWRcTGF5b3V0UGFydGlhbHNcX1NjcmlwdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xTdHVkZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xVc2VyXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Blog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Contact/Thanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxUaGFua3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Login/Uncheck.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVW5jaGVjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/BlogPartials/_BlogDetailsCommentFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJsb2dQYXJ0aWFsc1xfQmxvZ0RldGFpbHNDb21tZW50Rm9ybVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/BlogPartials/_BlogDetailsCommentListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJsb2dQYXJ0aWFsc1xfQmxvZ0RldGFpbHNDb21tZW50TGlzdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/BlogPartials/_BlogDetailsPopularPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJsb2dQYXJ0aWFsc1xfQmxvZ0RldGFpbHNQb3B1bGFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/BlogPartials/_BlogDetailsPostPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJsb2dQYXJ0aWFsc1xfQmxvZ0RldGFpbHNQb3N0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/BlogPartials/_BlogDetailsSubscribePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJsb2dQYXJ0aWFsc1xfQmxvZ0RldGFpbHNTdWJzY3JpYmVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/BlogPartials/_BlogDetailsTagPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJsb2dQYXJ0aWFsc1xfQmxvZ0RldGFpbHNUYWdQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/LayoutPartials/_CrumbsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9DcnVtYnNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/LayoutPartials/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/LayoutPartials/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/LayoutPartials/_HeadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9IZWFkUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/LayoutPartials/_PreloaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9QcmVsb2FkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/LayoutPartials/_ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFBhcnRpYWxzXF9TY3JpcHRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_AboutPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9BYm91dFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_BlogPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9CbG9nUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_CoursePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9Db3Vyc2VQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_CtaPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9DdGFQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_EventsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9FdmVudHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_SliderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9TbGlkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_TakeTourePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9UYWtlVG91cmVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_TeacherDetailPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9UZWFjaGVyRGV0YWlsUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_TeacherListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9UZWFjaGVyTGlzdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_TeacherPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9UZWFjaGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_TestimonialPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9UZXN0aW1vbmlhbFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/Partials/_UserProfilePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9Vc2VyUHJvZmlsZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Subscribe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaWJlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Teachers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Teachers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-awectdktbh
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Parent/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFyZW50XFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-xtmp8pg4s4
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Student/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-1ys3vk2tk0
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Areas/Teacher/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-my9oqcs2os
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vpkz4e1jaw
+
+[C:/Users/win11/Documents/Projeler/web - dershane/web/Views/Shared/_LayoutHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-23tw3pw8f4

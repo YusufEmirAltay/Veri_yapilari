@@ -1,0 +1,67 @@
+﻿@using entity.Concrate
+@model List<Class>
+@{
+	ViewData["Title"] = "Sınıf";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="event-area  pt--120 pb--80">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="section-title">
+					<span class="text-uppercase">SINIF İŞLEMLERİ</span>
+					<h2>Sisteme Kayıtlı Sınıflar </h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="col-md-6">
+				<div class="media align-items-center mb-5">
+					<div class="media-body primary-bg">
+						<div class="mt-5 mb-5 text-center d-flex justify-content-center">
+							<p>
+								<a> </a><br />
+								<a> </a><br />
+								<a class="btn btn-success btn-round btn-sm" href="/Admin/Class/ClassAdd">SINIF EKLE</a>
+								<a> </a><br />
+								<a> </a><br />
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			@foreach (var item in Model)
+			{
+				<div class="col-md-6">
+					<div class="media align-items-center mb-5">
+						<div class="media-head primary-bg">
+							<p><span>@item.Number</span>@item.Branch</p>
+						</div>
+						<div class="media-body">
+							<h4 class="mb-1 mt-5"><span class="text-warning">Sınıf Zümresi: </span> @item.Number<span>. Sınıf</span></h4>
+							<h4 class="mb-1"><span class="text-warning">Sınıf Şubesi: </span> @item.Branch<span> Şubesi</span></h4>
+							<div class="mb-3">
+								@switch (item.Status)
+								{
+									case false:
+										<h7 class="mb-5"><span class="text-warning">Sınıf Statüsü: </span>Pasif</h7>
+										<br />
+										break;
+									case true:
+										<h7 class="mb-5"><span class="text-warning">Sınıf Staüsü: </span>Aktif</h7>
+										<br />
+										break;
+									default:
+										<br />
+								}
+							</div>
+							<a href="/Admin/Class/ClassGet/@item.Class_Id"><i class="fa fa-pencil">  DÜZENLE</i></a><br />
+							<a href="/Admin/Class/ClassDelete/@item.Class_Id"><i class="fa fa-trash text-danger">  SİL</i></a>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,19 @@
+﻿<div class="comment-area">
+	<h4 class="comment-title">Comments <span>(03)</span></h4>
+	<ul class="comment-list">
+		@foreach (var item in ViewBag.Comment)
+		{
+			<li class="comment-info-inner">
+				<article>
+					<div class="comment-thumb">
+						<img src="~/template/assets/images/author/images.png" alt="image">
+					</div>
+					<div class="comment-content">
+						<h4>@item.Name</h4>
+						<p>@item.Comment</p>
+					</div>
+				</article>
+			</li>
+		}
+	</ul>
+</div>

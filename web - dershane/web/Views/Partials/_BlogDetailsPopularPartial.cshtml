@@ -1,0 +1,14 @@
+﻿<div class="widget widget-course">
+	<h4 class="widget-title">Popüler Yazılar</h4>
+	<div class="course-list">
+		@foreach (var item in ViewBag.Posts)
+		{
+			<div class="w-cs-single">
+				<img src="@item.PhotoURL" alt="image">
+				<div class="fix">
+					<p><a href="/Blog/Details/@item.BlogPost_Id">@item.Title</a></p>
+				</div>
+			</div>
+		}
+	</div>
+</div>

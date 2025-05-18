@@ -1,0 +1,19 @@
+﻿@using entity.Concrate
+@model AppRole
+@{
+    ViewData["Title"] = "Rol Ekle";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Rol <span>ekleyin</span></h4>
+					<p>Rol ekleyin ve eğitimin gelişmesine yardımcı olun</p>
+				</div>
+			</div>
+		</div>
+		@await Html.PartialAsync("~/Areas/Admin/Views/Shared/Partials/_TeacherFormPartial.cshtml")
+	</div>
+</div>

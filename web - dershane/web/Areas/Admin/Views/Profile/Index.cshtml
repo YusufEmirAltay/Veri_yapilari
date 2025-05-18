@@ -1,0 +1,47 @@
+﻿@using dto.dtos.AppUserDtos
+@model AppUserEditDto
+@{
+	ViewData["Title"] = "Profil";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Profil <span>Bilgileriniz</span></h4>
+					<p>Profil bilgilerinizi görüntülemek yada değiştirmek için aşağıdaki formu kullanınız. </p>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form">
+			<form method="post">
+				<div class="row">
+					<div class="col-md-4">
+						<h5 class="mb-2">İsminiz</h5>
+						@Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+					</div>
+					<div class="col-md-4">
+						<h5 class="mb-2">Soyisminiz</h5>
+						@Html.TextBoxFor(x => x.Surname, new {@class = "form-control" })
+					</div>
+					<div class="col-md-4">
+						<h5 class="mb-2">T.C. Kimlik Numaranız</h5>
+						@Html.TextBoxFor(x => x.UserName, new {@class = "form-control" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">Parolanız</h5>
+						@Html.PasswordFor(x => x.Password, new {@class = "form-control" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">Parolanızı Tekrar Giriniz</h5>
+						@Html.PasswordFor(x => x.ConfirmPassword, new {@class = "form-control" })
+					</div>
+					<div class="col-md-12 text-center">
+						<button type="submit">DEĞİŞİKLİKLERİ KAYDET</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

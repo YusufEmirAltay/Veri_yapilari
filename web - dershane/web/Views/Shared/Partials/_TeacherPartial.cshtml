@@ -1,0 +1,31 @@
+﻿<div class="teacher-area pb--70">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 col-md-6">
+				<div class="section-title">
+					<span class="text-uppercase"><span class="primary-color">EN İYİLERİNDEN</span> ÖĞRENİN </span>
+					<h2>Eğitim Kadromuz </h2>
+				</div>
+			</div>
+		</div>
+		<div class="teacher-carousel owl-carousel card-deck">
+			@foreach (var t in ViewBag.Teacher)
+			{
+				<div class="card mb-5">
+					<img src="@t.PhotoURL" alt="image">
+					<div class="card-body teacher-content p-25">
+						<h4 class="card-title mb-4"><a href="/Teachers/Details/@t.Teacher_Id">@t.FirstName <b>@t.LastName</b></a></h4>
+						@foreach (var item in ViewBag.Lesson)
+						{
+							if (item.Lesson_Id == t.Lesson_Id)
+							{
+								<span class="primary-color d-block mb-3">@item.Name Dersi Öğretmeni</span>
+							}
+						}
+						<p class="card-text">@t.PreBio</p>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>

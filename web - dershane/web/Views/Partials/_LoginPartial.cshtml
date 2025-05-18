@@ -1,0 +1,36 @@
+﻿@model LoginViewModel
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Merhaba !</h4>
+					<p>Giriş yapmak için lütfen kullanıcı adınızı ve şifrenizi girin. Size daha fazla bilgiye erişim sağlamak için sabırsızlanıyoruz! </p>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form">
+			<form method="post">
+				<div class="row">
+					<div class="col-md-6">
+						<h5 class="mb-2">T.C. Kimlik Numaranız</h5>
+						<input type="text" asp-for="UserName" maxlength="11" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">Parolanız</h5>
+
+						<input type="password" asp-for="Password">
+					</div>
+					<div class="col-md-12 text-center">
+
+						<button type="submit">GİRİŞ YAP</button>
+					</div>
+					<div>
+						<p class="text-center">Hesabınız yok mu? <a href="~/Register/Index">Hesap oluşturun.</a></p>
+					</div>
+
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

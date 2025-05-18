@@ -1,0 +1,68 @@
+﻿@using entity.Concrate
+@model Class
+<div class="contact-form mt-5">
+	<form method="post">
+		<div class="row">
+			<div class="col-md-4">
+				<h2 class="mb-2">Sınıf Zümresi</h2>
+				@Html.DropDownList("Number", new SelectList(new List<Object>
+				{
+				new { Value = 1, Text = "1. Sınıf" },
+				new { Value = 2, Text = "2. Sınıf" },
+				new { Value = 3, Text = "3. Sınıf" },
+				new { Value = 4, Text = "4. Sınıf" },
+				new { Value = 5, Text = "5. Sınıf" },
+				new { Value = 6, Text = "6. Sınıf" },
+				new { Value = 7, Text = "7. Sınıf" },
+				new { Value = 8, Text = "8. Sınıf" },
+				new { Value = 9, Text = "9. Sınıf" },
+				new { Value = 10, Text = "10. Sınıf" },
+				new { Value = 11, Text = "11. Sınıf" },
+				new { Value = 12, Text = "12. Sınıf" },
+				new { Value = 13, Text = "Mezun Sınıfı" },
+				new { Value = 0, Text = "KPSS Sınıf" },
+				}, "Value", "Text"), "Lütfen sınıf zümresini seçiniz...", new { @class = "form-control" })
+			</div>
+			<div class="col-md-4">
+				<h2 class="mb-2">Sınıf Şubesi</h2>
+				@Html.DropDownList("Branch", new SelectList(new List<Object>
+				{
+				new { Value = "A", Text = "A Şubesi" },
+				new { Value = "B", Text = "B Şubesi" },
+				new { Value = "C", Text = "C Şubesi" },
+				new { Value = "D", Text = "D Şubesi" },
+				new { Value = "E", Text = "E Şubesi" },
+				new { Value = "F", Text = "F Şubesi" },
+				new { Value = "G", Text = "G Şubesi" },
+				new { Value = "H", Text = "H Şubesi" },
+				new { Value = "I", Text = "I Şubesi" },
+				new { Value = "J", Text = "J Şubesi" },
+				new { Value = "K", Text = "K Şubesi" },
+				new { Value = "L", Text = "L Şubesi" },
+				new { Value = "M", Text = "M Şubesi" },
+				new { Value = "N", Text = "N Şubesi" },
+				new { Value = "O", Text = "O Şubesi" },
+				new { Value = "P", Text = "P Şubesi" },
+				new { Value = "R", Text = "R Şubesi" },
+				new { Value = "S", Text = "S Şubesi" },
+				new { Value = "T", Text = "T Şubesi" },
+				new { Value = "U", Text = "U Şubesi" },
+				new { Value = "V", Text = "V Şubesi" },
+				new { Value = "Y", Text = "Y Şubesi" },
+				new { Value = "Z", Text = "Z Şubesi" },
+				}, "Value", "Text"), "Lütfen sınıf şubesini seçiniz...", new { @class = "form-control" })
+			</div>
+			<div class="col-md-4">
+				<h2 class="mb-2">Sınıf Statüsü</h2>
+				@Html.DropDownList("Status", new SelectList(new List<Object>
+				{
+				new { Value = "true", Text = "Aktif" },
+				new { Value = "false", Text = "Pasif" }
+				}, "Value", "Text"), "Lütfen sınıf statüsünü seçiniz...", new { @class = "form-control" })
+			</div>
+			<div class="col-md-12 text-center">
+				<button type="submit">SINIF OLUŞTUR</button>
+			</div>
+		</div>
+	</form>
+</div>

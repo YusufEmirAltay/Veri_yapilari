@@ -1,0 +1,20 @@
+﻿@{
+	ViewData["Title"] = "Adres Düzenleme";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("AdressUpdate", "Adress", FormMethod.Post))
+{
+	<div class="contact-form-area pb--120">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<div class="cnt-title">
+						<h4>Adres <span>düzenleyin</span></h4>
+						<p>Adres düzenleyin blog'a katkıda bulunun ve eğitimin gelişmesine yardımcı olun</p>
+					</div>
+				</div>
+			</div>
+			@await Html.PartialAsync("~/Areas/Admin/Views/Shared/Partials/_AdressFormPartial.cshtml")
+		</div>
+	</div>
+}

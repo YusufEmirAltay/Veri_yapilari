@@ -1,0 +1,709 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\404.html",
+      "PackagePath": "staticwebassets\\template\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\about.html",
+      "PackagePath": "staticwebassets\\template\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\template\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\css\\default-css.css",
+      "PackagePath": "staticwebassets\\template\\assets\\css\\default-css.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\template\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\template\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\template\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\template\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\template\\assets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\template\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\css\\typography.css",
+      "PackagePath": "staticwebassets\\template\\assets\\css\\typography.css"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\template\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\template\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\template\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\template\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\template\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\template\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\404.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\about\\abt-right-thumb.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\about\\abt-right-thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\angle-left.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\angle-left.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\angle-right.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\angle-right.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\author\\auth1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\author\\auth1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\author\\blog-post-auth1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\author\\blog-post-auth1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\author\\blog-post-auth2.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\author\\blog-post-auth2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\author\\blog-post-auth3.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\author\\blog-post-auth3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\author\\cs-comment-auth1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\author\\cs-comment-auth1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\author\\cs-comment-auth2.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\author\\cs-comment-auth2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\author\\cs-comment-auth3.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\author\\cs-comment-auth3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\author\\cs-post-author1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\author\\cs-post-author1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\author\\images.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\author\\images.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\abt2-bg.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\abt2-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\bg1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\crumb-bg.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\crumb-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\cta-bg-bottom.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\cta-bg-bottom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\flwr-bg.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\flwr-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\hero-bg2.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\hero-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\slider-bg1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\slider-bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\slider-bg2.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\slider-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\slider-bg3.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\slider-bg3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\slider.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\slider.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\take-toure-bg.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\take-toure-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\bg\\tst-bg-shape.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\bg\\tst-bg-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\blog\\1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\blog\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\blog\\2.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\blog\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\blog\\3.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\blog\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\blog\\4.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\blog\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\blog\\5.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\blog\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\blog\\6.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\blog\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\blog\\add.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\blog\\add.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\course-details.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\course-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-img1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-img2.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-img3.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-img4.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-img5.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-img6.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-small-thumb1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-small-thumb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-small-thumb2.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-small-thumb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-small-thumb3.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-small-thumb3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-small-thumb4.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-small-thumb4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\course\\cs-small-thumb5.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\course\\cs-small-thumb5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\feature-archive\\ftvc-icon1.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\feature-archive\\ftvc-icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\feature-archive\\ftvc-icon2.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\feature-archive\\ftvc-icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\feature-archive\\ftvc-icon3.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\feature-archive\\ftvc-icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\feature-archive\\ftvc-icon4.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\feature-archive\\ftvc-icon4.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\feature-archive\\ftvc-img1.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\feature-archive\\ftvc-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\feature-archive\\ftvc-img2.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\feature-archive\\ftvc-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\feature-archive\\ftvc-img3.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\feature-archive\\ftvc-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\feature-archive\\ftvc-img4.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\feature-archive\\ftvc-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\icon\\abt-titleshape.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\icon\\abt-titleshape.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\icon\\cross-cursor.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\icon\\cross-cursor.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\icon\\favicon.ico",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\icon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\icon\\hb-bottom-shape.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\icon\\hb-bottom-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\icon\\logo-black.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\icon\\logo-black.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\icon\\logo-middle.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\icon\\logo-middle.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\icon\\logo.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\icon\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\icon\\title-top-shape.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\icon\\title-top-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\map.png",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\p1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\sidebar\\banner-img.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\sidebar\\banner-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\teacher\\tch-left-thumb.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\teacher\\tch-left-thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\teacher\\teacher-member1.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\teacher\\teacher-member1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\teacher\\teacher-member2.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\teacher\\teacher-member2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\teacher\\teacher-member3.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\teacher\\teacher-member3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\teacher\\teacher-member4.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\teacher\\teacher-member4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\teacher\\teacher-member5.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\teacher\\teacher-member5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\images\\teacher\\teacher-member6.jpg",
+      "PackagePath": "staticwebassets\\template\\assets\\images\\teacher\\teacher-member6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\template\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\js\\google-maps.js",
+      "PackagePath": "staticwebassets\\template\\assets\\js\\google-maps.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\template\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\js\\jquery.slicknav.min.js",
+      "PackagePath": "staticwebassets\\template\\assets\\js\\jquery.slicknav.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\template\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\template\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\template\\assets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\js\\vendor\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\template\\assets\\js\\vendor\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\assets\\js\\vendor\\modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets\\template\\assets\\js\\vendor\\modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\blog-details.html",
+      "PackagePath": "staticwebassets\\template\\blog-details.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\blog.html",
+      "PackagePath": "staticwebassets\\template\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\contact.html",
+      "PackagePath": "staticwebassets\\template\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\course-details.html",
+      "PackagePath": "staticwebassets\\template\\course-details.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\courses.html",
+      "PackagePath": "staticwebassets\\template\\courses.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\index.html",
+      "PackagePath": "staticwebassets\\template\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\index2.html",
+      "PackagePath": "staticwebassets\\template\\index2.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\index3.html",
+      "PackagePath": "staticwebassets\\template\\index3.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\layout.html",
+      "PackagePath": "staticwebassets\\template\\layout.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\layout2.html",
+      "PackagePath": "staticwebassets\\template\\layout2.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\login.html",
+      "PackagePath": "staticwebassets\\template\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\register.html",
+      "PackagePath": "staticwebassets\\template\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\teacher-details.html",
+      "PackagePath": "staticwebassets\\template\\teacher-details.html"
+    },
+    {
+      "Id": "C:\\Users\\win11\\Documents\\Projeler\\web - dershane\\web\\wwwroot\\template\\teachers.html",
+      "PackagePath": "staticwebassets\\template\\teachers.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.web.props",
+      "PackagePath": "build\\web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.web.props",
+      "PackagePath": "buildMultiTargeting\\web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.web.props",
+      "PackagePath": "buildTransitive\\web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

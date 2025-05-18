@@ -1,0 +1,36 @@
+﻿@using entity.Concrate
+@model Blog
+
+<div class="contact-form mt-5">
+	<form method="post">
+		<div class="row">
+			<div class="col-md-6">
+				<h5 class="mb-2">Başlık</h5>
+				@Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2">Özet</h5>
+				@Html.TextBoxFor(x => x.Summary, new { @class = "form-control" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2">Yazı</h5>
+				@Html.TextBoxFor(x => x.Article, new { @class = "form-control" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2">URL</h5>
+				@Html.TextBoxFor(x => x.PhotoURL, new { @class = "form-control" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2">Gönderi Statüsü</h5>
+				@Html.DropDownList("Status", new SelectList(new List<Object>
+				{
+				new { Value = "true", Text = "Aktif" },
+				new { Value = "false", Text = "Pasif" }
+				}, "Value", "Text"), "Lütfen gönderi statüsünü seçiniz...", new { @class = "form-control" })
+			</div>
+			<div class="col-md-12 text-center">
+				<button type="submit">KAYDET</button>
+			</div>
+		</div>
+	</form>
+</div>

@@ -1,0 +1,16 @@
+﻿@using entity.Concrate
+@model Blog
+<div class="course-details">
+	<div class="cs-thumb mb-5">
+		<img src="@Model.PhotoURL" alt="image">
+	</div>
+	<div class="cs-content">
+		<div class="blog-top-meta">
+			<ul>
+				<li><i class="fa fa-comment-o"></i>(3) <span>Comments</span></li>
+			</ul>
+		</div>
+		<h3 class="mb-4"><a href="#">@Model.Title </a></h3>
+		<p>@Model.Article</p>
+	</div>
+</div>

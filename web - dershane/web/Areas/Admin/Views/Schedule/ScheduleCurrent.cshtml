@@ -1,0 +1,59 @@
+﻿@using entity.Concrate
+@model List<Schedule>
+@{
+	ViewData["Title"] = "Ders Programı";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+	var liste = Model.OrderBy(s => s.Time).ToList();
+}
+<div class="event-area  pt--120 pb--80">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="section-title">
+					<span class="text-uppercase">DERS PROGRAMI İŞLEMLERİ</span>
+					<h2>Güncel Haftalık Ders Programı </h2>
+				</div>
+			</div>
+		</div>
+		@foreach (var sinif in ViewBag.Class)
+		{
+			<div class="row mb-5">
+				<h3 class="text-uppercase text-warning">@sinif.Number @sinif.Branch</h3>
+				<div class="blog-carousel owl-carousel card-deck">
+					@foreach (var item in liste)
+					{
+						if (item.Class_Id == sinif.Class_Id)
+						{
+							<div class="card mb-5">
+								<div class="card-body p-25">
+									@foreach (var ogretmen in ViewBag.Teacher)
+									{
+										if (ogretmen.Teacher_Id == item.Teacher_Id)
+										{
+											@foreach (var lesson in ViewBag.Lesson)
+											{
+												if (lesson.Lesson_Id == ogretmen.Lesson_Id)
+												{
+													<div class="mb-5">
+														<h4 class="card-title"><a href="/Admin/Lesson/LessonGet/@lesson.Lesson_Id">@lesson.Name</a></h4>
+														<h7 class="card-text"><a href="/Admin/Teacher/TeacherGet/@ogretmen.Teacher_Id">@ogretmen.FirstName <b>@ogretmen.LastName</b></a></h7><br />
+													</div>
+												}
+											}
+										}
+									}
+									<a class="card-text">@item.Time.ToString("dddd HH:mm")</a><br />
+									<a href="/Admin/Schedule/ScheduleGet/@item.Schedule_Id" class="card-text">Düzenle</a><br />
+									<a href="/Admin/Schedule/ScheduleDelete/@item.Schedule_Id" class="card-text">Sil</a>
+								</div>
+							</div>
+						}
+
+					}
+				</div><!-- blog-carousel -->
+			</div>
+
+			<!-- blog-carousel -->
+		}
+	</div>
+</div>

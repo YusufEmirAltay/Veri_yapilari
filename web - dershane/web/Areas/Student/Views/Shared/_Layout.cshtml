@@ -1,0 +1,13 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+@await Html.PartialAsync("~/Areas/Student/Views/Shared/LayoutPartials/_HeadPartial.cshtml")
+<body>
+	@await Html.PartialAsync("/Views/Shared/LayoutPartials/_PreloaderPartial.cshtml")
+	@await Html.PartialAsync("~/Areas/Student/Views/Shared/LayoutPartials/_HeaderPartial.cshtml")
+	@await Html.PartialAsync("~/Areas/Student/Views/Shared/LayoutPartials/_CrumbsPartial.cshtml")
+	@RenderBody()
+	@await Html.PartialAsync("~/Areas/Student/Views/Shared/LayoutPartials/_FooterPartial.cshtml")
+	@await Html.PartialAsync("/Views/Shared/LayoutPartials/_ScriptPartial.cshtml")
+</body>
+
+</html>

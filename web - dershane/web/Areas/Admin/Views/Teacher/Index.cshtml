@@ -1,0 +1,57 @@
+﻿@using entity.Concrate
+@model List<Teacher>
+@{
+	ViewData["Title"] = "Öğretmen";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="all-teachers  pt--120 pb--70">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="section-title">
+					<span class="text-uppercase">ÖĞRETMEN İŞLEMLERİ</span>
+					<h2>Sisteme Kayıtlı Öğretmenler </h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="media align-items-center mb-5">
+					<div class="media-body primary-bg">
+						<div class="mt-5 mb-5 text-center d-flex justify-content-center">
+							<p>
+								<a> </a><br />
+								<a> </a><br />
+								<a> </a><br />
+								<a> </a><br />
+								<a> </a><br />
+								<a class="btn btn-success btn-round btn-sm" href="/Admin/Teacher/TeacherAdd">ÖĞRETMEN EKLE</a>
+								<a> </a><br />
+								<a> </a><br />
+								<a> </a><br />
+								<a> </a><br />
+								<a> </a><br />
+								<a> </a><br />
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			@foreach (var t in Model)
+			{
+				<div class="col-lg-4 col-md-6">
+					<div class="card mb-5">
+						<img src="@t.PhotoURL" alt="image">
+						<div class="card-body teacher-content p-25">
+							<h4 class="card-title mb-1"><a href="/Teachers/Details/@t.Teacher_Id">@t.FirstName <b>@t.LastName</b></a></h4>
+							<span class="primary-color d-block mb-4">@t.Lesson.Name Dersi Öğretmeni</span>
+							<a href="/Admin/Teacher/TeacherGet/@t.Teacher_Id"><i class="fa fa-pencil">  DÜZENLE</i></a><br />
+							<a href="/Admin/Teacher/TeacherDelete/@t.Teacher_Id"><i class="fa fa-trash text-danger">  SİL</i></a>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>

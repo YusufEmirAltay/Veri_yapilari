@@ -1,0 +1,26 @@
+﻿@{
+	ViewData["Title"] = "Yazının Detayı";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="blog-details-area ptb--120">
+	<div class="container">
+		<div class="row">
+			<!-- course details start -->
+			<div class="col-lg-8 col-md-8">
+				@await Html.PartialAsync("~/Views/Shared/BlogPartials/_BlogDetailsPostPartial.cshtml")
+@* 				@await Html.PartialAsync("~/Views/Shared/BlogPartials/_BlogDetailsCommentListPartial.cshtml")
+ *@@* 				@await Html.PartialAsync("~/Views/Shared/BlogPartials/_BlogDetailsCommentFormPartial.cshtml")
+ *@			</div>
+			<!-- course details end -->
+			<!-- sidebar start -->
+			<div class="col-lg-4 col-md-4">
+				<div class="sidebar">
+					@await Html.PartialAsync("~/Views/Shared/BlogPartials/_BlogDetailsPopularPartial.cshtml")
+@* 					@await Html.PartialAsync("~/Views/Shared/BlogPartials/_BlogDetailsSubscribePartial.cshtml")
+ *@					@await Html.PartialAsync("~/Views/Shared/BlogPartials/_BlogDetailsTagPartial.cshtml")
+				</div>
+			</div>
+			<!-- sidebar end -->
+		</div>
+	</div>
+</div>

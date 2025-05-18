@@ -1,0 +1,33 @@
+﻿@using entity.Concrate
+@model Teacher
+@{
+	ViewData["Title"] = "Eğitmen Hakkında";
+	Layout = "~/Areas/Parent/Views/Shared/_Layout.cshtml";
+}
+
+<div class="teacher-details pt--120 pb--60">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="tch-left-thumb">
+					<img src="@Model.PhotoURL" alt="image">
+				</div>
+			</div>
+			<div class="col-lg-8">
+				<div class="teacher-contenttchd-content pl-5 pb-5">
+					<h3>@Model.FirstName<b> @Model.LastName</b></h3>
+					@foreach (var item in ViewBag.Lesson)
+					{
+						if (item.Lesson_Id == Model.Lesson_Id)
+						{
+							<span>@item.Name Dersi Öğretmeni</span>
+						}
+					}
+					<p>
+						@Model.DetailBio
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,9 @@
+﻿@using entity.Concrate
+@model Teacher
+@{
+	ViewData["Title"] = "Eğitmen Hakkında";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@await Html.PartialAsync("~/Views/Shared/Partials/_TeacherDetailPartial.cshtml")
+@await Html.PartialAsync("~/Views/Shared/Partials/_CtaPartial.cshtml")

@@ -1,0 +1,35 @@
+﻿@using entity.Concrate
+@model Adress
+<div class="contact-form mt-5">
+	<form method="post">
+		<div class="row">
+			<div class="col-md-6">
+				<h5 class="mb-2">İl</h5>
+				@Html.DropDownListFor(x => x.City_Id, new SelectList(ViewBag.City, "City_Id", "Name"), "Lütfen bir il seçiniz...", new { @class = "form-control" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2">İlçe</h5>
+				@Html.TextBoxFor(x => x.Town, new { @class = "form-control", oninput = "isim(this)" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2">Mahalle</h5>
+				@Html.TextBoxFor(x => x.Neighbourhood, new { @class = "form-control", oninput = "isim(this)" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2">Sokak</h5>
+				@Html.TextBoxFor(x => x.Street, new { @class = "form-control", oninput = "isim(this)" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2">Bina Numarası</h5>
+				@Html.TextBoxFor(x => x.NO, new { @class = "form-control", oninput = "sayi(this)"})
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2">Kapı Numarası</h5>
+				@Html.TextBoxFor(x => x.Apartment, new { @class = "form-control", oninput = "sayi(this)" })
+			</div>
+			<div class="col-md-12 text-center">
+				<button type="submit">KAYDET</button>
+			</div>
+		</div>
+	</form>
+</div>

@@ -1,0 +1,20 @@
+﻿@{
+	ViewData["Title"] = "Öğrenci Düzenleme";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("ParentUpdate", "Parent", FormMethod.Post))
+{
+	<div class="contact-form-area pb--120">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<div class="cnt-title">
+						<h4>Öğrenci <span>düzenleyin</span></h4>
+						<p>Öürencileri düzenleyin ve eğitimin gelişmesine yardımcı olun</p>
+					</div>
+				</div>
+			</div>
+			@await Html.PartialAsync("~/Areas/Admin/Views/Shared/Partials/_StudentFormPartial.cshtml")
+		</div>
+	</div>
+}

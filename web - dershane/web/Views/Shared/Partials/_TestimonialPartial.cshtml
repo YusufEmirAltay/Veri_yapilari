@@ -1,0 +1,23 @@
+﻿<div class="testimonial-area ptb--120">
+	<img class="tst-bg" src="~/template/assets/images/bg/tst-bg-shape.png" alt="image">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 offset-lg-3 text-center">
+				<div class="tst-carousel owl-carousel">
+					@foreach (var t in ViewBag.Testimonial)
+					{
+						<div class="testimonial-content pb--40">
+							<div class="section-title sec-style-two">
+								<span class="text-uppercase primary-color mb-0">MUTLU ÖĞRENCİLER</span>
+								<h2>Yorumlar </h2>
+							</div>
+							<h3>@t.Comment</h3>
+							<h4>@t.Name</h4>
+							<span>@t.Role</span>
+						</div>
+					}
+				</div>
+			</div><!-- row -->
+		</div><!-- row -->
+	</div><!-- container -->
+</div>

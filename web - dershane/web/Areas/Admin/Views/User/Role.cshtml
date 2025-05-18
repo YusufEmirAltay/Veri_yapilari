@@ -1,0 +1,52 @@
+﻿@using entity.Concrate
+@model List<AppUser>
+@{
+	ViewData["Title"] = "Kullanıcı Yetki";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<!-- teacher area start -->
+<div class="teacher-area befr-themeoclor pb--70">
+	<div class="container">
+		<div class="row mt-5 mb-5">
+			<div class="col-lg-12 col-md-6">
+				<div class="section-title">
+					<span class="text-uppercase">Yetki <span class="primary-color">işlemleri</span></span>
+					<h2>Sisteme Kayıtlı Kullanıcılar </h2>
+				</div>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div class="teacher-carousel owl-carousel card-deck">
+			@foreach (var users in Model)
+			{
+				<div class="card mb-5">
+					<div class="card-body teacher-content p-25">
+						<h4 class="card-title mb-4"><a href="/Admin/User/UserGet/@users.Id">@users.Name @users.Surname</a></h4>
+						@foreach (var current in ViewBag.RoleCurrent)
+						{
+							@if (current.UserId==users.Id)
+							{
+								@foreach (var name in ViewBag.RoleName)
+								{
+									@if (name.Id==current.RoleId)
+									{
+										<span class="primary-color d-block mb-3">@name.Name</span>
+									}
+								}
+							}
+						}
+						<ul class="list-inline">
+							<li><i class="fa fa-lock "></i>@users.UserName</li>
+							<br />
+							<li><a href="mailto:@users.Email"><i class="fa fa-envelope "></i>@users.Email</a></li>
+							<br />
+							<li><a href="tel:@users.PhoneNumber"><i class="fa fa-phone"></i>@users.PhoneNumber</a></li>
+						</ul>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,53 @@
+﻿@using entity.Concrate
+@model List<Student>
+@{
+	ViewData["Title"] = "Öğrencim";
+	Layout = "~/Areas/Parent/Views/Shared/_Layout.cshtml";
+}
+@foreach (var ogrenci in Model)
+{
+	@foreach (var veli in ViewBag.Parent)
+	{
+		@if (ogrenci.Parent_Id == veli.Parent_Id)
+		{
+			<div class="contact-form mt-5">
+				<div class="row">
+					<div class="col-md-6">
+						<h5 class="mb-2">İsim</h5>
+						<h7>@ogrenci.FirstName</h7>
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Soyisim</h5>
+						<h7>@ogrenci.LastName</h7>
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> T.C. Kimlik Numarası</h5>
+						<h7>@ogrenci.TC</h7>
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Doğum Tarihi</h5>
+						<h7>@ogrenci.BirthDay</h7>
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Telefon Numarası</h5>
+						<h7>@ogrenci.Phone</h7>
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> E-Posta Adresi</h5>
+						<h7>@ogrenci.Email</h7>
+					</div>
+@* 					<div class="col-md-6">
+						<h5 class="mb-2"> Sınıf</h5>
+						<h7>@ogrenci.Class.Number @ogrenci.Class.Branch</h7>
+					</div> *@
+					<div class="col-md-6">
+						<h5 class="mb-2"> Veli</h5>
+						<h7>@ogrenci.Parent.FirstName @ogrenci.Parent.LastName</h7>
+					</div>
+				</div>
+			</div>
+
+		}
+
+	}
+}

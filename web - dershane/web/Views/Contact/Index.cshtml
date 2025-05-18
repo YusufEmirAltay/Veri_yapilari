@@ -1,0 +1,67 @@
+﻿@model entity.Concrate.Contact
+@{
+	ViewData["Title"] = "İletişim";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="contact-info ptb--120">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="cnt-info">
+					<h4>İletişim Bilgileri</h4>
+					<p>Kabaoğlu, Baki Komsuoğlu bulvarı No:515, Umuttepe, 41001 İzmit/Kocaeli</p>
+					<ul class="address">
+						<li><i class="fa fa-phone"></i>+1 (2) 345 6789</li>
+						<li><i class="fa fa-envelope"></i>info@zekaatolyesi.com</li>
+					</ul>
+					<ul class="social list-inline mt-5">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+						<li><a href="#"><i class="fa fa-skype"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-8">
+				<div id="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.8806865943516!2d29.917041071307974!3d40.82207012047864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb5badf629fe45%3A0xc81fa849234e8755!2sKocaeli%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1712687017701!5m2!1str!2str" width="700" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Bizimle <span>iletişime geçin</span></h4>
+					<p>Bizimle iletişime geçmek için lütfen aşağıdaki bilgileri kullanın. Size yardımcı olmaktan mutluluk duyarız! </p>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form">
+			<form method="post">
+				<div class="row">
+					<div class="col-md-4">
+						<input type="text" asp-for="Name" placeholder="İsminiz">
+					</div>
+					<div class="col-md-4">
+						<input type="email" asp-for="Email" placeholder="E-Posta Adresiniz">
+					</div>
+					<div class="col-md-4">
+						<input type="text" asp-for="Subject" placeholder="İletinizin Konusu">
+					</div>
+					<div class="col-12">
+						<textarea asp-for="Message" id="msg" placeholder="İletinizi buraya giriniz."></textarea>
+					</div>
+					<div class="col-12 text-center">
+						<button type="submit">GÖNDER</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

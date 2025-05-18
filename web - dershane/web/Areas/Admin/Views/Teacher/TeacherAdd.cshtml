@@ -1,0 +1,19 @@
+﻿@using entity.Concrate
+@model Teacher
+@{
+	ViewData["Title"] = "Öğretmen Ekleme";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Öğretmen <span>oluşturun</span></h4>
+					<p>Öğretmen oluşturun ve eğitimin gelişmesine yardımcı olun</p>
+				</div>
+			</div>
+		</div>
+		@await Html.PartialAsync("~/Areas/Admin/Views/Shared/Partials/_TeacherFormPartial.cshtml")
+	</div>
+</div>

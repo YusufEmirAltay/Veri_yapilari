@@ -1,0 +1,130 @@
+﻿@using entity.Concrate
+@model Student
+@{
+    ViewData["Title"] = "Hızlı Öğrenci Ekleme";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Öğrenci <span>oluşturun</span></h4>
+					<p>Öğrenci oluşturun ve eğitimin gelişmesine yardımcı olun</p>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form mt-5">
+			<form method="post">
+				<div class="row">
+					<div class="col-md-6">
+						<h5 class="mb-2">İsim</h5>
+						@Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", maxlength = 50 })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Soyisim</h5>
+						@Html.TextBoxFor(x => x.LastName, new { @class = "form-control", maxlength = 20 })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> T.C. Kimlik Numarası</h5>
+						@Html.TextBoxFor(x => x.TC, new { @class = "form-control", maxlength = 11 })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Doğum Tarihi</h5>
+						@Html.TextBoxFor(model => model.BirthDay, "{0:yyyy-MM-dd}", new { @class = "form-control", @type = "date" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Telefon Numarası</h5>
+						@Html.TextBoxFor(x => x.Phone, new { @class = "form-control", placeholder = "5XXXXXXXXX", maxlength = 10 })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> E-Posta Adresi</h5>
+						@Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Sınıf</h5>
+						@Html.DropDownListFor(x => x.Class_Id, ViewBag.Class as SelectList, "Lütfen bir sınıf seçiniz...", new { @class = "form-control" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Statü</h5>
+						@Html.DropDownList("Status", new SelectList(new List<Object>
+						{
+						new { Value = "true", Text = "Aktif" },
+						new { Value = "false", Text = "Pasif" }
+						}, "Value", "Text"), "Lütfen statü seçiniz...", new { @class = "form-control" })
+					</div>
+					<div class="col-md-12">
+						<div class="cnt-title">
+							<h4>Veli <span>bilgileri</span></h4>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">İsim</h5>
+						@Html.TextBoxFor(model => model.Parent.FirstName, new { @class = "form-control", maxlength = 50 })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Soyisim</h5>
+						@Html.TextBoxFor(x => x.Parent.LastName, new { @class = "form-control", maxlength = 20 })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> T.C. Kimlik Numarası</h5>
+						@Html.TextBoxFor(x => x.Parent.TC, new { @class = "form-control", maxlength = 11 })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Doğum Tarihi</h5>
+						@Html.TextBoxFor(model => model.Parent.BirthDay, "{0:yyyy-MM-dd}", new { @class = "form-control", @type = "date" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Telefon Numarası</h5>
+						@Html.TextBoxFor(x => x.Parent.Phone, new { @class = "form-control", placeholder = "5XXXXXXXXX", maxlength = 10 })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> E-Posta Adresi</h5>
+						@Html.TextBoxFor(x => x.Parent.Email, new { @class = "form-control" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2"> Statü</h5>
+						@Html.DropDownList("Parent.Status", new SelectList(new List<Object>
+						{
+						new { Value = "true", Text = "Aktif" },
+						new { Value = "false", Text = "Pasif" }
+						}, "Value", "Text"), "Lütfen statü seçiniz...", new { @class = "form-control" })
+					</div>
+
+					<div class="col-md-12">
+						<div class="cnt-title">
+							<h4>Adres <span>bilgileri</span></h4>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">İl</h5>
+						@Html.DropDownListFor(x => x.Parent.Adress.City_Id, new SelectList(ViewBag.City, "City_Id", "Name"), "Lütfen bir il seçiniz...", new { @class = "form-control" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">İlçe</h5>
+						@Html.TextBoxFor(x => x.Parent.Adress.Town, new { @class = "form-control" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">Mahalle</h5>
+						@Html.TextBoxFor(x => x.Parent.Adress.Neighbourhood, new { @class = "form-control" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">Sokak</h5>
+						@Html.TextBoxFor(x => x.Parent.Adress.Street, new { @class = "form-control" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">Bina Numarası</h5>
+						@Html.TextBoxFor(x => x.Parent.Adress.NO, new { @class = "form-control" })
+					</div>
+					<div class="col-md-6">
+						<h5 class="mb-2">Kapı Numarası</h5>
+						@Html.TextBoxFor(x => x.Parent.Adress.Apartment, new { @class = "form-control" })
+					</div>
+					<div class="col-md-12 text-center">
+						<button type="submit">ÖĞRENCİ OLUŞTUR</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

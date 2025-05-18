@@ -1,0 +1,17 @@
+﻿@{
+	ViewData["Title"] = "Programa Ekleme";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="contact-form-area pb--120">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="cnt-title">
+					<h4>Ders Programı <span>oluşturun</span></h4>
+					<p>Ders Programı oluşturun ve eğitimin gelişmesine yardımcı olun</p>
+				</div>
+			</div>
+		</div>
+		@await Html.PartialAsync("~/Areas/Admin/Views/Shared/Partials/_ScheduleFormPartial.cshtml")
+	</div>
+</div>

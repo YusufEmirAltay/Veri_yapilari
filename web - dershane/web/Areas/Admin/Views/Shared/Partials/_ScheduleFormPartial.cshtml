@@ -1,0 +1,32 @@
+﻿@using entity.Concrate
+@model Schedule
+
+<div class="contact-form mt-5">
+	<form method="post">
+		<div class="row">
+			<div class="col-md-6">
+				<h5 class="mb-2"> Ders Başlangıç Zamanı</h5>
+				@Html.TextBoxFor(model => model.Time, "{0:yyyy-MM-ddTHH:mm}", new { @class = "form-control", @type = "datetime-local" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> Sınıf</h5>
+				@Html.DropDownListFor(x => x.Class_Id, ViewBag.Class as SelectList, "Lütfen bir sınıf seçiniz...", new { @class = "form-control" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> Öğretmen</h5>
+				@Html.DropDownListFor(x => x.Teacher_Id, ViewBag.Teacher as SelectList, "Lütfen bir öğretmen seçiniz...", new { @class = "form-control" })
+			</div>
+			<div class="col-md-6">
+				<h5 class="mb-2"> Statü</h5>
+				@Html.DropDownList("Status", new SelectList(new List<Object>
+				{
+				new { Value = "true", Text = "Aktif" },
+				new { Value = "false", Text = "Pasif" }
+				}, "Value", "Text"), "Lütfen statü seçiniz...", new { @class = "form-control" })
+			</div>
+			<div class="col-md-12 text-center">
+				<button type="submit">KAYDET</button>
+			</div>
+		</div>
+	</form>
+</div>
