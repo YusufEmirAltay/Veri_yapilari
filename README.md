@@ -37,6 +37,7 @@ Frontend:   - HTML
             - SCSS
 
 Backend:    - C#
+            -phyton
 
 Veritabanı: - MS SQL
 
